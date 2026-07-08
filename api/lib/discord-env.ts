@@ -1,0 +1,16 @@
+export const discordEnv = {
+  clientId: process.env.DISCORD_CLIENT_ID || "",
+  clientSecret: process.env.DISCORD_CLIENT_SECRET || "",
+  botToken: process.env.DISCORD_BOT_TOKEN || "",
+  publicKey: process.env.DISCORD_PUBLIC_KEY || "",
+  guildId: process.env.DISCORD_GUILD_ID || "",
+  verifiedRoleId: process.env.DISCORD_VERIFIED_ROLE_ID || "",
+  redirectChannelId: process.env.DISCORD_REDIRECT_CHANNEL_ID || "",
+  jwtSecret: process.env.JWT_SECRET || "perks-midnight-secret",
+  dashboardPassword: process.env.DASHBOARD_PASSWORD || "PERKSxMIDNIGHT",
+  adminPassword: process.env.ADMIN_PASSWORD || "MIDNIGHTxNITRO",
+  hcaptchaSecret: process.env.HCAPTCHA_SECRET || "",
+  ipinfoToken: process.env.IPINFO_TOKEN || "",
+  proxyCheck: process.env.PROXYCHECK || "",
+  webUrl: process.env.WEB_URL || "",
+};
